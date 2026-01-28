@@ -6,12 +6,12 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, ".", "");
 
   return {
-    base: "/TechPlover/", 
+    base: "/", 
 
     plugins: [react()],
 
     server: {
-      port: 3000,
+      port: 7000,
       host: "0.0.0.0",
     },
 
