@@ -61,7 +61,7 @@ export const Together: React.FC = () => {
              {/* Decorative Circle */}
              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 border border-white/20 rounded-full scale-0 group-hover:scale-150 transition-transform duration-700 opacity-0 group-hover:opacity-100"></div>
              
-             <span className="text-white text-5xl font-light tracking-tight relative z-10 selection:bg-white selection:text-tp-pink">
+             <span className="text-white text-5xl font-bold tracking-tight relative z-10 selection:bg-white selection:text-tp-pink">
                 techplover
              </span>
           </div>
@@ -76,7 +76,7 @@ export const Together: React.FC = () => {
                 </p>
                 <button 
                   onClick={() => scrollTo('culture')}
-                  className="px-6 py-2.5 border border-slate-300 rounded-lg hover:bg-tp-pink hover:text-white hover:border-tp-pink transition-all duration-300 text-sm font-medium tracking-wide active:scale-95"
+                  className="px-6 py-2.5 border border-slate-300 rounded-full hover:bg-tp-pink hover:text-white hover:border-tp-pink transition-all duration-300 text-sm font-medium tracking-wide active:scale-95"
                 >
                   Learn more
                 </button>
@@ -93,7 +93,7 @@ export const Together: React.FC = () => {
                 </p>
                 <button 
                   onClick={() => scrollTo('careers')}
-                  className="px-6 py-2.5 border border-slate-300 rounded-lg hover:bg-tp-pink hover:text-white hover:border-tp-pink transition-all duration-300 text-sm font-medium tracking-wide active:scale-95"
+                  className="px-6 py-2.5 border border-slate-300 rounded-full hover:bg-tp-pink hover:text-white hover:border-tp-pink transition-all duration-300 text-sm font-medium tracking-wide active:scale-95"
                 >
                   Explore jobs
                 </button>

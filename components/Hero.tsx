@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Button } from "./Button";
-import office from "../src/assets/video/office.mp4";
+import office from "../src/assets/video/office3.mp4";
 
 export const Hero: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
           preload="auto"
           onTimeUpdate={handleTimeUpdate}
           className={`w-full h-full object-cover transition-opacity duration-500 ease-in-out ${
-            fade ? "opacity-90" : "opacity-100"
+            fade ? "opacity-75" : "opacity-100"
           }`}
         >
           <source src={office} type="video/mp4" />
@@ -39,7 +39,7 @@ export const Hero: React.FC = () => {
         </video>
 
         {/* Dark Overlay to smooth loop + improve readability */}
-        <div className="absolute inset-0 bg-slate-900/90" />
+        <div className="absolute inset-0 bg-slate-900/75" />
       </div>
 
       {/* Gradient Effects */}

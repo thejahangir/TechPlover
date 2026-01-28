@@ -1,36 +1,42 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import CustomEng from "../src/assets/img/custom-eng.png";
+import Cloud from "../src/assets/img/cloud.png";
+import Ai from "../src/assets/img/ai.png";
+import Security from "../src/assets/img/security.png";
+import Iot from "../src/assets/img/iot.png";
+import Blockchain from "../src/assets/img/blockchain.png";
 
 const solutions = [
   {
     title: 'Custom Engineering',
     desc: 'Bespoke platforms tailored to your operational DNA. We build mission-critical software that gives you a competitive edge.',
-    img: 'https://picsum.photos/seed/tech1/600/600'
+    img: [CustomEng]
   },
   {
     title: 'Cloud Modernization',
     desc: 'Scalable microservices architecture. We migrate legacy monoliths to resilient, cloud-native environments on AWS, Azure, or GCP.',
-    img: 'https://picsum.photos/seed/tech2/600/600'
+    img: [Cloud]
   },
   {
     title: 'AI Intelligence',
     desc: 'Predictive models and generative workflows. Leverage LLMs and machine learning to automate complex decision-making processes.',
-    img: 'https://picsum.photos/seed/tech3/600/600'
+    img: [Ai]
   },
   {
     title: 'Enterprise Security',
     desc: 'Fortify your digital assets with Zero Trust architecture, automated compliance auditing, and advanced threat detection systems.',
-    img: 'https://picsum.photos/seed/tech4/600/600'
+    img: [Security]
   },
   {
     title: 'IoT Ecosystems',
     desc: 'Connect the physical and digital worlds. We build real-time data pipelines for smart factories, connected fleets, and edge devices.',
-    img: 'https://picsum.photos/seed/tech5/600/600'
+    img: [Iot]
   },
   {
     title: 'Blockchain Ledger',
     desc: 'Decentralized trust for supply chain and finance. Implement smart contracts and immutable ledgers for absolute transparency.',
-    img: 'https://picsum.photos/seed/tech6/600/600'
+    img: [Blockchain]
   }
 ];
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from './Button';
 import { Heart, Zap, Shield, Users, Trophy, Coffee, Globe, BookOpen } from 'lucide-react';
+import HumaneCode from "../src/assets/img/humane-code.png";
 
 const values = [
     {
@@ -60,7 +61,7 @@ export const Culture: React.FC = () => {
                 
                 <div className="relative">
                     <div className="aspect-square rounded-[32px] overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
-                        <img src="https://picsum.photos/seed/culture_meeting/800/800" alt="Team Collaboration" className="w-full h-full object-cover" />
+                        <img src={HumaneCode} alt="Team Collaboration" className="w-full h-full object-cover" />
                     </div>
                     {/* Floating pill */}
                     <div className="absolute -bottom-6 -left-6 bg-white/90 backdrop-blur px-8 py-4 rounded-full shadow-lg border border-white/20">
