@@ -6,6 +6,8 @@ import { Expertise } from './components/Expertise';
 import { Approach } from './components/Approach';
 import { Insights } from './components/News';
 import { Solutions } from './components/Solutions';
+import { Staffing } from './components/Staffing';
+import { StaffingTrendsBanner } from './components/StaffingTrendsBanner';
 import { Culture } from './components/Culture';
 import { Careers } from './components/Careers';
 import { Footer } from './components/Footer';
@@ -24,6 +26,8 @@ function App() {
         <Expertise />
         <Approach />
         <Solutions />
+        <StaffingTrendsBanner />
+        <Staffing />
         <Testimonials />
         <Together />
         <Culture />
