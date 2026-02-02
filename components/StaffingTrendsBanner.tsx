@@ -3,7 +3,7 @@ import { TrendingUp, Zap, Target, Users } from 'lucide-react';
 
 export const StaffingTrendsBanner: React.FC = () => {
   return (
-    <section className="relative py-20 bg-tp-dark text-white overflow-hidden">
+    <section id="staffing" className="relative py-20 bg-tp-dark text-white overflow-hidden scroll-mt-20">
       {/* Background Abstract */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-tp-blue/20 to-transparent pointer-events-none"></div>
       <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-tp-purple/30 rounded-full blur-[100px] pointer-events-none"></div>

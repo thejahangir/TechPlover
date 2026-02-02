@@ -49,7 +49,7 @@ const process = [
 
 export const Staffing: React.FC = () => {
   return (
-    <section id="staffing" className="py-24 bg-white relative overflow-hidden scroll-mt-20">
+    <section className="py-24 bg-white relative overflow-hidden">
       <div className="container mx-auto px-6 max-w-[1200px] relative z-10">
         
         {/* Header */}
